@@ -1,0 +1,14 @@
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="view_pos_config_form_bs">
+            <field name="name">pos.config.form.bs</field>
+            <field name="model">pos.config</field> 
+	        <field name="inherit_id" ref="point_of_sale.view_pos_config_form"/>
+            <field name="arch" type="xml">
+                <field name="journal_id"  position="after">
+                    <field name="disc_pwd" string="Clave de Bloqueo/Caja" password="1"/>
+                </field>
+            </field>
+        </record>
+    </data>
+</openerp>
