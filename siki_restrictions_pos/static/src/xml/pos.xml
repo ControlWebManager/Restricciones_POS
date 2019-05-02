@@ -2,10 +2,7 @@
 <templates id="template" xml:space="preserve">
     <t t-name="LockButton">
         <div class='control-button'>
-            <i class='fa fa-star' />Lock
+            <i class='fa fa-star' />Bloqueo/Caja
         </div>
     </t>
-    
-    
-    
 </templates>
